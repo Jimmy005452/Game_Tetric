@@ -14,7 +14,7 @@ int main(void)
 	long graphDownTime = 0;
 
 	const int SHOWPERIOD = 50;
-	const int DOWNPERIOD = 300;		//Game speed
+	const int DOWNPERIOD = 300;		// The larger the value, the slower the fall.
 
 	for (;;)
 	{
